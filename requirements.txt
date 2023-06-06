@@ -1,4 +1,4 @@
-langchain
+langchain==0.0.184
 PyPDF2
 python-dotenv
 streamlit
