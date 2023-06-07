@@ -83,7 +83,7 @@ def main():
     st.header("Chat with multiple PDFs :books:")
     
     st.markdown("Get your OpenAI API Key [here](https://platform.openai.com/account/api-keys) ")
-    tempkey = st.text_input(":orange[Please enter your OpenAI API Key to start chatting]", type='password', placeholder='API Key should be of the format "sk-xxxx"')
+    tempkey = st.text_input(":orange[Please enter your OpenAI API Key to start chatting]", type='password', placeholder='API Key should be of the format "sk-xxxx..."')
     
     if tempkey is not None:
         
